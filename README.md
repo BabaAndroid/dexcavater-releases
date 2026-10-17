@@ -22,3 +22,41 @@ Welcome to the official download repository for **Dexcavater** — a high-perfor
 Download the `.deb` file and install it via terminal:
 ```bash
 sudo dpkg -i dexcavater_*_amd64.deb
+```
+*(If missing system dependencies, run `sudo apt-get install -f`)*
+
+### 🎩 Linux (Fedora / RHEL)
+Download the `.rpm` file and install it:
+```bash
+sudo rpm -i dexcavater-*.x86_64.rpm
+```
+
+### 🪟 Windows (10 / 11)
+1. Download `dexcavater_*_x64-setup.exe`.
+2. Double-click the installer and follow the setup wizard.
+3. Launch Dexcavater from your Start Menu or Desktop shortcut.
+
+---
+
+## ✨ Features at a Glance
+
+* **Blazing Fast In-Memory Analysis**: Built in pure Rust & Tauri for instant file navigation and memory efficiency.
+* **CodeMirror 6 Editor**: High-speed syntax highlighting for Java, Smali, JavaScript, and XML.
+* **Semantic Code Navigation**: Instant *Go to Definition*, *Find Callers*, *Find Callees*, and *Find Usages*.
+* **Hermes Decompiler Engine**: Dedicated in-process extraction and deep decompilation for React Native Hermes bytecode.
+* **Native ELF & Shared Library Analyzer**: Inspect symbols, JNI bridge signatures, and security flags (`readelf`).
+* **Interactive X-Ray Call Graphs**: Explore call hierarchies and dependencies visually.
+
+---
+
+## 🔐 Verifying Downloads
+Every release includes a `SHA256SUMS.txt` file. You can verify the integrity of your download:
+
+```bash
+sha256sum -c SHA256SUMS.txt
+```
+
+---
+
+## 🐛 Feedback & Bug Reports
+Found a bug or have a feature request? Please [open an issue](https://github.com/BabaAndroid/dexcavater-releases/issues) in this repository!
