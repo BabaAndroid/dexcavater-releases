@@ -71,7 +71,9 @@ Experience the precision engineering of Dexcavater through real-world analysis w
 Select any Android APK, designate an isolated analysis workspace, and let Dexcavater set up structured directories, cached indexing, and recent project tracking with zero configuration overhead.
 
 <div align="center">
-  <img src="docs/screenshots/01_project_creation.png" alt="Dexcavater Project Creation" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
+  <a href="https://raw.githubusercontent.com/BabaAndroid/dexcavater-releases/main/docs/screenshots/01_project_creation.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/BabaAndroid/dexcavater-releases/main/docs/screenshots/01_project_creation.png" alt="Dexcavater Project Creation" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
+  </a>
   <p><em>Clean, intuitive project setup with workspace sandboxing and recent project history.</em></p>
 </div>
 
@@ -81,7 +83,9 @@ Select any Android APK, designate an isolated analysis workspace, and let Dexcav
 Watch every stage of extraction execute with millisecond precision. Dexcavater runs APK validation, Apktool resource decoding, and JADX Java decompilation concurrently, streaming color-coded diagnostic logs and progress feedback in real time.
 
 <div align="center">
-  <img src="docs/screenshots/02_live_preparation_pipeline.png" alt="Live Multi-Stage Pipeline" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
+  <a href="https://raw.githubusercontent.com/BabaAndroid/dexcavater-releases/main/docs/screenshots/02_live_preparation_pipeline.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/BabaAndroid/dexcavater-releases/main/docs/screenshots/02_live_preparation_pipeline.png" alt="Live Multi-Stage Pipeline" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
+  </a>
   <p><em>Live pipeline tracking: APK validation, Apktool resource decoding, and JADX Java decompilation with live log streaming.</em></p>
 </div>
 
@@ -91,7 +95,9 @@ Watch every stage of extraction execute with millisecond precision. Dexcavater r
 Say goodbye to sluggish, bloated IDEs. Built on **CodeMirror 6**, Dexcavater renders 10,000+ line classes instantaneously with syntax highlighting, line folding, and breadcrumbs. The **Verification & Health** panel aggregates real-time metrics across all decompiled classes (11,857+ Java sources, 7,153+ Smali files) with one-click secondary DEX appending.
 
 <div align="center">
-  <img src="docs/screenshots/03_workbench_java_editor.png" alt="Workbench Java Editor" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
+  <a href="https://raw.githubusercontent.com/BabaAndroid/dexcavater-releases/main/docs/screenshots/03_workbench_java_editor.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/BabaAndroid/dexcavater-releases/main/docs/screenshots/03_workbench_java_editor.png" alt="Workbench Java Editor" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
+  </a>
   <p><em>High-speed CodeMirror 6 Java editor, intelligent package hierarchy, and live decompilation diagnostics.</em></p>
 </div>
 
@@ -101,7 +107,9 @@ Say goodbye to sluggish, bloated IDEs. Built on **CodeMirror 6**, Dexcavater ren
 Reverse engineering modern React Native applications is historically tedious. Dexcavater features a dedicated **Hermes Bytecode Engine**. Simply open `index.android.bundle` to instantly parse bytecode version (e.g. HBC v98), extract string pools (11,900+ strings), and automatically discover all internal **navigation routes and deep links** without running the app.
 
 <div align="center">
-  <img src="docs/screenshots/04_hermes_bytecode_triage.png" alt="Hermes Bytecode Triage" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
+  <a href="https://raw.githubusercontent.com/BabaAndroid/dexcavater-releases/main/docs/screenshots/04_hermes_bytecode_triage.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/BabaAndroid/dexcavater-releases/main/docs/screenshots/04_hermes_bytecode_triage.png" alt="Hermes Bytecode Triage" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
+  </a>
   <p><em>Hermes Bytecode (HBC v98) triage: string pool extraction, function counts, and 70+ auto-discovered navigation routes.</em></p>
 </div>
 
@@ -111,7 +119,9 @@ Reverse engineering modern React Native applications is historically tedious. De
 With a single click on **Deep Decompile**, Dexcavater reconstructs formatted, readable JavaScript code with annotated caller/callee graphs and module role inference. Concurrently, the **Smart Analysis** security engine audits the bundle, cataloging hundreds of high-risk security primitives into categorized security intelligence.
 
 <div align="center">
-  <img src="docs/screenshots/05_hermes_deep_decompilation_smart_analysis.png" alt="Hermes Deep Decompilation and Smart Analysis" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
+  <a href="https://raw.githubusercontent.com/BabaAndroid/dexcavater-releases/main/docs/screenshots/05_hermes_deep_decompilation_smart_analysis.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/BabaAndroid/dexcavater-releases/main/docs/screenshots/05_hermes_deep_decompilation_smart_analysis.png" alt="Hermes Deep Decompilation and Smart Analysis" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
+  </a>
   <p><em>Decompiled Hermes JavaScript with annotated caller/callee graphs alongside 796 classified Smart Analysis security findings.</em></p>
 </div>
 
